@@ -1,24 +1,14 @@
-import Navbar from "../components/Navbar";
-import About from "../components/About";
-import Download from "../components/Download";
-import Que from "../components/Que";
-import Footer from "../components/Footer";
-import "../index.css";
+import About from "./components/About";
+import Download from "./components/Download";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Que from "./components/Que";
 
 function Home() {
   return (
     <div className="bg-black text-white min-h-screen overflow-hidden relative">
-      <div
-        style={{
-          backgroundImage: "url('/bg2.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          height: "600px",
-          zIndex: "-1",
-          boxShadow: "inset 0px 0px 900px rgba(0, 0, 0, 0.8)", // ✅ Strong black inner shadow
-        }}
-      >
+      <div className="bg-[url('/bg2.jpg')] bg-cover h-[600px] opacity-30 absolute top-0 left-0 w-full"></div>
+      <div className="relative h-[600px]">
         <Navbar />
         <div className="flex flex-col items-center justify-center gap-4 h-[70%]">
           <h1 className="lg:text-6xl text-4xl font-bold text-center lg:w-[38%] w-[70%]">

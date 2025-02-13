@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 const Download = () => {
   return (
     <div className="border-t border-gray-800">
       <div className="flex flex-row items-center h-[400px] mx-9 gap-16 justify-between lg:mx-64">
-        <img
-          src="/iphone.png"
+        <Image
+          src="/download.png"
           alt=""
           width={300}
           height={300}

@@ -4,33 +4,24 @@ import { useState } from "react";
 const Que = () => {
   const questions = [
     {
-      question: "What is Netflix?",
-      answer: `Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
-        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!`,
+      question: "what is Anime?",
+      answer: `Anime is a Japanese animation studio that produces animated television series, films, and video games. The company was founded in 1997 by Tatsuya Ishihara and is based in Tokyo, Japan. Anime is known for its unique animation style, which combines traditional Japanese animation with modern technology and techniques. The company has produced a wide range of anime series, including popular shows like Naruto, Attack on Titan, and My Hero Academia.`,
     },
     {
-      question: "How much does Netflix cost?",
-      answer: `Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.`,
+      question: "Is watching anime online legal?",
+      answer: `It depends on the website. Streaming from official platforms like Crunchyroll, Funimation, or Netflix is legal. However, using pirated websites is illegal and not recommended.`,
     },
     {
-      question: "Where can I watch Netflix?",
-      answer: `Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
-
-You can also download your favorite shows with the iOS or Android app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.`,
+      question: "What are some popular anime genres?",
+      answer: `Anime covers many genres, including action, adventure, romance, horror, sci-fi, fantasy, slice-of-life, and mecha. Popular genres like shonen (e.g., Dragon Ball), shojo (e.g., Sailor Moon), and isekai (e.g., Re:Zero) have dedicated fan bases.`,
     },
     {
-      question: "How do I cancel?",
-      answer: `Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.`,
+      question: "Where can I watch anime for free?",
+      answer: `There are legal platforms that offer free anime with ads, such as Crunchyroll, Pluto TV, and Tubi. Be cautious of unofficial sites, as they may have security risks.`,
     },
     {
-      question: "What can I watch on Netflix?",
-      answer: `Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.`,
-    },
-    {
-      question: "Is Netflix good for kids?",
-      answer: `The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
-
-Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.`,
+      question: "Do anime have subtitles or dubs?",
+      answer: `Most anime come with subtitles (subbed) and some have English voiceovers (dubbed). Platforms like Funimation focus on dubs, while Crunchyroll offers both subs and dubs.`,
     },
   ];
 
@@ -67,7 +58,8 @@ Kids profiles come with PIN-protected parental controls that let you restrict th
       </div>
       <div className="text-center my-14">
         <p>
-          Ready to watch? Enter your email to create or restart your membership.
+          Ready to watch? Enter your email to get started. No need to pay for a
+          subscription.
         </p>
         <input
           type="email"

@@ -1,17 +1,20 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <div>
       <div className="flex flex-row items-center h-[400px] mx-9 gap-16 justify-between lg:mx-64">
         <div className="w-[30%] ">
-          <h1 className="text-4xl font-bold my-4">Enjoy on your TV</h1>
+          <h1 className="text-4xl font-bold my-4">Enjoy Unlimited Animes</h1>
           <p>
-            Watch on Smart TVs,PlayStation, Xbox, ChromeCast, Apple TV, Fire TV,
-            Roku, and more.
+            Watch animes on your free time. No need to pay for a subscription.
           </p>
         </div>
-        <img
+        <Image
           src="/about.png"
           alt="about"
+          height={500}
+          width={500}
           className="h-[50%] lg:h-[70%] w-[50%]"
         />
       </div>
